@@ -32,4 +32,4 @@ Replace <file_name> with the path to your audio file.
 **Note**: The script can process audio files of various formats, but will convert them to mp3 before transcribing.
 
 ## Configuration
-Ensure you have the OpenAI API key stored securely in 1Password and update the secret reference in the script to point to the correct secret.
+Ensure you have the OpenAI API key stored securely in 1Password and that the environment variable "OPENAI_API_KEY" is set with the correct secret reference.
