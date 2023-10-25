@@ -21,6 +21,13 @@ pip install python-dotenv openai pydub
 ```
 
 ## Usage
+Ensure that an environment variable is set to the 1Password secret reference of your OpenAI API key.
+
+
+```
+export OPENAI_API_KEY="op://vault/item/field"
+```
+
 To transcribe an audio file, use the following command:
 
 ```
