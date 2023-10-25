@@ -3,6 +3,7 @@ This script allows you to transcribe audio files using OpenAI's Whisper API. It 
 
 ## Prerequisites
 1Password CLI: You must have the [1Password CLI](https://developer.1password.com/docs/cli/get-started/) installed and set up on your machine.
+
 Python 3.x: Ensure you have Python 3 installed. You can check using python --version.
 
 ## Dependencies
