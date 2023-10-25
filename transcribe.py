@@ -3,8 +3,8 @@ import openai
 import sys
 from pydub import AudioSegment
 
-# Replace with reference to OpenAI API key in 1Password
-openai.api_key = "op://Service Account Vault/OpenAI API Key/api key"
+# Ensure the env var is set with a 1Password secret reference 
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def convert_to_mp3(input_file):
     audio = AudioSegment.from_file(input_file)
