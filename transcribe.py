@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 import openai
 import sys
+import os
 from pydub import AudioSegment
 
 # Ensure the env var is set with a 1Password secret reference 
