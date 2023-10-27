@@ -9,8 +9,6 @@ Python 3.x: Ensure you have Python 3 installed. You can check using python --ver
 ## Dependencies
 This script requires the following Python libraries:
 
-`dotenv`: For loading environment variables.
-
 `openai`: For interacting with the OpenAI API.
 
 `pydub`: For converting audio files to mp3 format.
