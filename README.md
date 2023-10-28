@@ -6,6 +6,8 @@ This script allows you to transcribe audio files using OpenAI's Whisper API. It 
 
 Python 3.x: Ensure you have Python 3 installed. You can check using python --version.
 
+ffmpeg: Ensure that you have ffmpeg installed. Use `brew` or `apt-get` to install it.
+
 ## Dependencies
 This script requires the following Python libraries:
 
